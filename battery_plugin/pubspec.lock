@@ -8,6 +8,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.5.0-nullsafety"
+  batter_plugin_linux:
+    dependency: "direct main"
+    description:
+      path: "../batter_plugin_linux"
+      relative: true
+    source: path
+    version: "0.0.1"
   battery_platform_interface:
     dependency: "direct main"
     description:

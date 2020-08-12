@@ -1,4 +1,4 @@
-name: battery_plugin
+name: batter_plugin_linux
 description: A new flutter plugin project.
 version: 0.0.1
 author:
@@ -11,14 +11,6 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  battery_platform_interface:
-    path: ../battery_platform_interface
-  battery_plugin_web:
-    path: ../battery_plugin_web
-  battery_plugin_windows:
-    path: ../battery_plugin_windows
-  batter_plugin_linux:
-    path: ../batter_plugin_linux
 
 dev_dependencies:
   flutter_test:
@@ -35,15 +27,8 @@ flutter:
   # adding or updating assets for this project.
   plugin:
     platforms:
-      android:
-        package: com.example.battery_plugin
-        pluginClass: BatteryPlugin
-      web:
-        default_package: battery_plugin_web
-      windows:
-        default_package: battery_plugin_windows
       linux:
-        default_package: batter_plugin_linux
+        pluginClass: BatterPluginLinuxPlugin
 
   # To add assets to your plugin package, add an assets section, like this:
   # assets:

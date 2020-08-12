@@ -1,9 +1,10 @@
 <component name="libraryTable">
   <library name="Flutter Plugins" type="FlutterPluginsLibraryType">
     <CLASSES>
+      <root url="file://$PROJECT_DIR$/../batter_plugin_linux" />
       <root url="file://$PROJECT_DIR$" />
-      <root url="file://$PROJECT_DIR$/../battery_plugin_web" />
       <root url="file://$PROJECT_DIR$/../battery_plugin_windows" />
+      <root url="file://$PROJECT_DIR$/../battery_plugin_web" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

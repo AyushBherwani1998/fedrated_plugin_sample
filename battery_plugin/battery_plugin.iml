@@ -2,6 +2,14 @@
 <module type="JAVA_MODULE" version="4">
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
+    <content url="file://$MODULE_DIR$/../batter_plugin_linux">
+      <excludeFolder url="file://$MODULE_DIR$/../batter_plugin_linux/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/../batter_plugin_linux/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/../batter_plugin_linux/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../batter_plugin_linux/example/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/../batter_plugin_linux/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/../batter_plugin_linux/example/build" />
+    </content>
     <content url="file://$MODULE_DIR$/../battery_platform_interface">
       <excludeFolder url="file://$MODULE_DIR$/../battery_platform_interface/.dart_tool" />
       <excludeFolder url="file://$MODULE_DIR$/../battery_platform_interface/.pub" />
@@ -16,6 +24,12 @@
       <excludeFolder url="file://$MODULE_DIR$/example/.dart_tool" />
       <excludeFolder url="file://$MODULE_DIR$/example/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/example/linux/flutter/ephemeral/.plugin_symlinks/batter_plugin_linux/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/example/linux/flutter/ephemeral/.plugin_symlinks/batter_plugin_linux/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/example/linux/flutter/ephemeral/.plugin_symlinks/batter_plugin_linux/build" />
+      <excludeFolder url="file://$MODULE_DIR$/example/linux/flutter/ephemeral/.plugin_symlinks/batter_plugin_linux/example/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/example/linux/flutter/ephemeral/.plugin_symlinks/batter_plugin_linux/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/example/linux/flutter/ephemeral/.plugin_symlinks/batter_plugin_linux/example/build" />
       <excludeFolder url="file://$MODULE_DIR$/example/windows/flutter/ephemeral/.plugin_symlinks/battery_plugin_windows/example/.dart_tool" />
       <excludeFolder url="file://$MODULE_DIR$/example/windows/flutter/ephemeral/.plugin_symlinks/battery_plugin_windows/example/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/example/windows/flutter/ephemeral/.plugin_symlinks/battery_plugin_windows/example/build" />
@@ -32,12 +46,9 @@
       <excludeFolder url="file://$MODULE_DIR$/../battery_plugin_windows/example/.dart_tool" />
       <excludeFolder url="file://$MODULE_DIR$/../battery_plugin_windows/example/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/../battery_plugin_windows/example/build" />
-      <excludeFolder url="file://$MODULE_DIR$/../battery_plugin_windows/example/build/flutter_assets/packages" />
-      <excludeFolder url="file://$MODULE_DIR$/../battery_plugin_windows/example/build/windows/runner/Debug/data/flutter_assets/packages" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Dart SDK" level="project" />
     <orderEntry type="library" name="Flutter Plugins" level="project" />
-    <orderEntry type="library" name="Dart Packages" level="project" />
   </component>
 </module>
